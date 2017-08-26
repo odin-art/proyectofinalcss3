@@ -1,0 +1,120 @@
+body{
+  font-family:DancingScript;
+  margin: 2%;
+  background-color: #02010a;
+}
+@font-face {
+  font-family:"DancingScript";
+  src: url(../fuente/DancingScript-.ttf),url(../fuente/DancingScript-Regular.otf),
+  url(../fuente/DancingScript-Regular.ttf),url(../fuente/DancingScript-Bold.otf);
+}
+header {
+  margin: 0 auto;
+	padding: 1%;
+	background-color: #5b7989;
+	color:#fff;
+  text-align: left;
+  text-shadow: 2px 2px 2px #02010a;
+  border-radius: 10px;
+}
+ a{
+  margin-left:8px;
+  margin: 6px;
+  color:#fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-align: right;
+ display:inline-block:right;
+}
+a:hover{
+font-size: 1.6em;
+color: #5b7989;
+}
+section{
+  background-color: #d5c75f;
+  width: 100%;
+}
+.contenedor{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  background: #d5c75f;
+  min-height: 100px;
+  padding: 20px 0}
+
+.contenedorsecundario{
+  width: 33.33%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+
+}
+.c1{
+-webkit-filter:blur(10px);
+}
+.c2{
+-webkit-filter:grayscale(100%);
+}
+.c3{
+-webkit-filter:sepia(90%);
+}
+.c4{
+-webkit-filter:grayscale(100%);
+}
+.c5{
+
+}
+.c6{
+-webkit-filter:grayscale(100%);
+}
+
+footer{
+  background-color: #c6d5c5;
+  border-radius: 10px;
+}
+.contenedor2 {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display:inline-flex;
+}
+.contenedor2 div {
+	box-sizing: border-box;
+	padding: 5px;
+  margin-left:8.3%;
+}
+.contenedor2 ul {
+  list-style: none;
+}
+
+@media only screen and (max-width:900px) {
+
+  header{
+  width:98%;
+  text-align: center;
+  }
+
+  .foto1{
+  width: 100%;
+  }
+  .contenedor{
+display: block;
+}
+.contenedorsecundario{
+width: 100%;
+}
+.contenedor2{
+  display: block;
+  text-align: center;
+  margin: 0 auto  ;
+  padding: 0 auto;
+  font-size: 1.3em;
+}
+.foo{
+  width: 100%
+}
+.copy{
+  width: 5%;
+}
+}

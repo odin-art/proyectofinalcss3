@@ -1,0 +1,145 @@
+body{
+  font-family:DancingScript;
+  margin: 2%;
+  background-color: #02010a;
+}
+@font-face {
+  font-family:"DancingScript";
+  src: url(fuente/DancingScript-.ttf),url(fuente/DancingScript-Regular.otf),
+  url(fuente/DancingScript-Regular.ttf),url(fuente/DancingScript-Bold.otf);
+}
+header {
+
+  margin: 0 auto;
+	padding: 1%;
+	background-color: #5b7989;
+	color:#fff;
+  text-align: left;
+  text-shadow: 2px 2px 2px #02010a;
+  border-radius: 10px;
+}
+ a{
+  margin-left:8px;
+  margin: 6px;
+  color:#fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-align: right;
+ display:inline-block:right;
+}
+a:hover{
+font-size: 1.6em;
+color: #5b7989;
+}
+
+nav {
+  background-color: #82c3a6;
+ padding-top: 1%;
+ padding-bottom: 1%;
+  }
+  nav img{
+    margin: 1%auto;
+    align-items: center;
+  }
+img{
+  box-shadow: 2px 2px 2px #02010a;
+  }
+section{
+  background-color: #d5c75f;
+  border: 0;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+#Paisajes{
+  color: #000000;
+}
+#Retrato{
+  color: #000000;
+}
+.contenedor{
+display: flex;
+  margin:1%auto;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+#imagen1 img{
+	transition-property: border;
+	transition-duration: 0.5s;
+  animation:animation;
+
+}
+
+#imagen1 img:hover{
+	transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: solid 2px;
+}
+
+  #imagen2 img{
+  	transition-property: border;
+  	transition-duration: 0.5s;
+    animation:animation;
+    }
+
+  #imagen2 img:hover{
+  	transform: translate(5px,20px);
+    box-shadow: 2px 2px 2px #82c3a6
+    border:solid 2px;
+  }
+footer{
+  background-color: #c6d5c5;
+  border-radius: 10px;
+}
+.contenedor2 {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display:inline-flex;
+}
+.contenedor2 div {
+	box-sizing: border-box;
+	padding: 5px;
+  margin-left:8.3%;
+}
+.contenedor2 ul {
+  list-style: none;
+}
+#copy img{
+  border-radius: 50px;
+}
+
+@media only screen and (max-width:900px){
+
+header{
+width:98%;
+text-align: center;
+}
+
+nav{
+width: 100%;
+
+}
+.foto1{
+width: 100%;
+}
+.contenedor{
+display: block;
+}
+#imagen1{
+width: 80%;
+}
+.contenedor2{
+  display: block;
+  text-align: center;
+  margin: 0 auto  ;
+  padding: 0 auto;
+  font-size: 1.3em;
+}
+.foo{
+  width: 100%
+}
+.copy{
+  width: 5%;
+}
+}
